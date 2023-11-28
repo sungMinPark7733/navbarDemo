@@ -1,0 +1,12 @@
+.fullscreen-image {
+  height: 100vh; /* 100% of the viewport height */
+  width: 100%;   /* 100% of the parent container (div) width */
+  overflow: hidden; /* Hide any overflowing content */
+}
+
+.fullscreen-image img {
+  width: 100%;   /* Make the image width 100% of its container */
+  height: auto;  /* Maintain the image's aspect ratio */
+  display: block; /* Remove any extra spacing below the image */
+  margin: 0;
+}
